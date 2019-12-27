@@ -10,7 +10,7 @@ try {
         4
     );
 
-    while (($row = $csv->readline(CSVReader::RETURN_TYPE_ASSOC)) !== CSVReader::END_OF_FILE) {
+    while ($row = $csv->readline(CSVReader::RETURN_TYPE_ASSOC)) {
         print_r($row);
     }
 } catch (Exception $exception) {

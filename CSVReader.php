@@ -6,7 +6,7 @@ class CSVReader
     const RETURN_TYPE_ASSOC = 2;
 //    const RETURN_TYPE_STRING = 3;
     //states
-    const END_OF_FILE = 4;
+    const END_OF_FILE = null;
     //errors
     const ERROR_MISMATCH_COLUMN = 5;
     const ERROR_EMPTY_ROW = 6;
