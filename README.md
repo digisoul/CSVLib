@@ -1,2 +1,2 @@
 # CSVLib
-A PHP library to read &amp; write large .csv files.
+A PHP library to read large .csv files.
